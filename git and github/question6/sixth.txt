@@ -1,0 +1,4 @@
+Solution:
+YouTube clone -  		https://vaibhu117.github.io/youtube-homepage/
+Slack home page clone - https://vaibhu117.github.io/slack-homepage/
+Gmail clones  -  		https://vaibhu117.github.io/Gmail-clone/
