@@ -1,0 +1,3 @@
+grid-auto-rows and grid-auto-column properties specify the height and width of rows that are automatically created when there is no explicit row definition and column definition respectively.
+
+This example creates a grid container with three columns defined by grid-template-areas. The first row is displayed with a height of 50px because we have mentioned grid-template-rows for the first row as 50px. And the remaining rows will be displayed with a height of 100px, because of the grid-auto-rows:200px property.That's why the second row is displayed with a height of 200px.
