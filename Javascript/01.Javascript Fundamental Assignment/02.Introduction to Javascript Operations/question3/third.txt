@@ -1,0 +1,50 @@
+Solution :
+Operators in JavaScript are categorized based on the number of operands they required into the following groups
+1.Unary operatorso Unary operators operate on a single operand
+2.Binary operatorso Binary operators operate on two operands.
+
+Unary operators in JavaScript are:
+1.Unary Plus (+): Converts its operand to a number.
+var x = "5";
+var y = +x;  // y will be a number (5)
+
+2.Unary Negation (-): Negates its operand, converting it to a number and changing the sign.
+var a = 10;
+var b = -a;  // b will be -10
+
+3.Logical NOT (!): Converts the operand to a Boolean value and returns the inverse.
+var isTrue = true;
+var isFalse = !isTrue;  // isFalse will be false
+
+4.Increment (++): Increases the value of its operand by 1.
+var count = 5;
+count++;  // count will be 6
+
+5.Decrement (--): Decreases the value of its operand by 1.
+var count = 5;
+count--;  // count will be 4
+
+6.Typeof Operator: Returns a string indicating the type of the operand.
+var variable = 42;
+console.log(typeof variable);  // prints "number"
+
+7.Bitwise NOT (~): Inverts the bits of its operand.
+var num = 5;  // 00000000000000000000000000000101
+var inverted = ~num;  // -6 (11111111111111111111111111111010 in 32-bit two's complement)
+
+
+Binary operators in JavaScript are:
++
+*
+/
+%
+==
+===
+!=
+!==
+>
+<
+>=
+<=
+&&
+||

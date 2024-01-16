@@ -1,0 +1,49 @@
+Solution :
+JavaScript :-
+1.Programming Langauge : JavaScript is a high-level programming language used for adding interactivity and functionality to web pages.
+
+2.Dynamic Behavior : JavaScript allows you to create dynamic elements and behaviors on a webpage. For example, you can validate form inputs, create animations, or update content in real-time based on user actions.
+
+3.Variables and Logics : JavaScript includes variables, data types, and control structures like loops and
+conditionals, enabling you to create complex logic and algorithms.
+
+4.Client-Side : JavaScript runs in web browsers, making it a client-side technology. It executes on the user's device, enabling real-time user interactions.
+
+HTML :-
+1.Markup Langauge : HTML is a markup language used for structuring and presenting content on web pages.
+
+2.Static Structure : HTML defines the static structure of a webpage, including headings, paragraphs, lists, links and images.
+
+3.Tags and Elements : HTML uses tags (e.g., <div>, <p>, <a>) to create elements that structure the content and provide semantic meaning.
+
+4.Content Presentation : HTML's primary role is to define the content's structure and semantics, which browsers render as a web page.
+
+
+Here's an example that demonstrates the use of both JavaScript and HTML in a typical web development scenario:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Web Page</title>
+    <script>
+        // JavaScript function to change the color of a text when clicked
+        function changeColor() {
+            var textElement = document.getElementById("myText");
+            textElement.style.color = "blue";
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Interactive Web Page</h1>
+    <p>This is a sample webpage with a <span id="myText"
+    onclick="changeColor()">clickable text</span>.</p>
+</body>
+</html>
+
+In this example:
+
+HTML is used to structure the webpage, define headings (<h1>) and paragraphs (<p>), and create a clickable text element with the ID "myText."
+
+JavaScript is used to define a function (changeColor) that changes the color of the text with the ID "myText" to blue when it's clicked. This demonstrates how JavaScript adds interactivity and dynamic behavior to the webpage by responding to user actions.
+
+This single example showcases the role of both JavaScript and HTML in web development, with HTML structuring the content and JavaScript providing interactivity.
