@@ -1,0 +1,114 @@
+Solution :
+Conditional statements are used to make decisions in your code based on certain conditions. These statements allow you to control the flow of your program by executing different blocks of code depending on whether a specified condition evaluates to true or false.
+
+The main conditional statements in JavaScript are:
+
+1.if statement :
+The 'if' statement is used to execute a block of code only if the specified condition evaluates to true.
+
+Syntax :
+if (condition){
+    //Code to be executed if the condition is true
+}
+
+Example :
+let temperature = 25;
+
+if (temperature > 20) {
+  console.log("It's a warm day!");
+}
+
+
+2.if-else statement :
+The 'if-else' statement allows you to execute one block of code if the condition is true and another block if the condition is false.
+
+Syntax :
+if (condition) {
+  // Code to be executed if the condition is true
+} else {
+  // Code to be executed if the condition is false
+}
+
+Example :
+let time = 14;
+
+if (time < 12) {
+  console.log("Good morning!");
+} else {
+  console.log("Good afternoon!");
+}
+
+
+3.if-else if-else statement :
+The 'if-else if-else' statement allows you to check multiple conditions and execute different blocks of code based on the first true condition.
+
+Syntax :
+if (condition1) {
+  // Code to be executed if condition1 is true
+} else if (condition2) {
+  // Code to be executed if condition2 is true
+} else {
+  // Code to be executed if none of the conditions are true
+}
+
+Example :
+let grade = 75;
+
+if (grade > 90) {
+    console.log("A Grade");
+} else if (grade <= 90 && grade > 70) {
+    console.log("B Grade");
+} else if (grade <= 70 && grade >= 50) {
+    console.log("C Grade");
+} else {
+    console.log("F Grade");
+} 
+
+
+4.Switch statement :
+The 'switch' statement is used to perform different actions based on different conditions. It is an alternative to a long series of if-else if statements.
+
+Syntax :
+switch (expression) {
+  case value1:
+    // Code to be executed if expression equals value1
+    break;
+  case value2:
+    // Code to be executed if expression equals value2
+    break;
+  // Additional cases as needed
+  default:
+    // Code to be executed if none of the cases match
+}
+
+Example :
+let weekDay = 3;
+
+switch (weekDay) {
+  case 1:
+    console.log("The Day is Sunday");
+    break;
+  case 2:
+    console.log("The Day is Monday");
+    break;
+  case 3:
+    console.log("The Day is Tuesday");
+    break;
+  case 4:
+    console.log("The Day is Wednesday");
+    break;
+  case 5:
+    console.log("The Day is Thursday");
+    break;
+  case 6:
+    console.log("The Day is Friday");
+    break;
+  case 7:
+    console.log("The Day is Saturday");
+    break;
+  default:
+    day = "Invalid day ";
+}
+
+
+
